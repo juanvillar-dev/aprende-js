@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    display: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0e4e8;
+
+}
+
+header{
+    width: 100wh;
+    height: 5em;
+
+    background-color: #f0f4f8;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+
+    box-shadow: 0px 0px 30px #0005;
+}
+
+header a{
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em;
+
+    transition: background-color 200ms, color 200ms;
+}
+
+header a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+body{
+    padding-top: 8em;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 0 5em;
+}
+
+.caja{
+    background-color: #f0f4f8;
+
+    width: 250px;
+    height: 350px;
+    border-radius: 1em;
+    box-shadow: 0 0 0.5em #0001;
+
+    transition: box-shadow 0.2s;
+    padding: 2em;
+}
+
+.caja:hover{
+    box-shadow: 0 0 2em #0005;
+}
+p{
+    text-align: center;
+}
+button{
+    margin: 1em 0 0 0;
+    width: 100%;
+    height: 3em;
+    border-radius: 1em;
+    background-color: #000;
+    color: #fff;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 1em 2em;
+    margin: auto;
+    border-radius: 1em;
+    border: 3px solid #ccc;
+    width: 30em;
+    margin: auto;
+}
+
+.buscador{
+    width: 100%;
+    padding: 3em 5em;
+
+    display: flex;
+    justify-content: center;
+}
